@@ -12,6 +12,8 @@ cd Hadoop-BigData-Docker
 
 Ejecutar el comando `./start-cluster.sh`
 
+>En caso que salga error de permisos al ejecutar, se ejecuta el comando `chmod 700 start-cluster.sh`
+
 ## Resultados
 
 En el bash se vería algo como esto:
