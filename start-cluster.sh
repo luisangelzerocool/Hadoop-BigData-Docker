@@ -7,8 +7,8 @@ docker build -f docker/base/Dockerfile -t irm/hadoop-cluster-base:latest docker/
 docker build -f docker/master/Dockerfile -t irm/hadoop-cluster-master:latest docker/master
 
 
-# the default node number is 3
-N=${1:-3}
+# the default node number is 2, 2 slave and 2 container different to master
+N=${1:-3} #if the number is 1:1, then it would be 0 slave 
 
 docker network create --driver=bridge hadoop &> /dev/null
 
