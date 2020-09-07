@@ -18,17 +18,17 @@ Execute the command: `./start-cluster.sh`
 
 In the bash you see:
 
-![Resultado](/screenshots/1.png)
+![Resultado](screenshots/1.png)
 
 If you going to the direcction:  `http://192.168.1.13:50070/`
 
 >You see this:
 
-![Resultado](/screenshots/2.png)
+![Resultado](screenshots/2.png)
 
 If you going to the direcction: `http://192.168.1.13:8088/` 
 
 >You see this:
 
-![Resultado](/screenshots/3.png)
+![Resultado](screenshots/3.png)
 
