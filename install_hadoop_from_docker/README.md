@@ -5,9 +5,9 @@
 In the machine with Docker execute the commands:
 
 ```bash
-git clone https://github.com/luisangelzerocool/Hadoop.git
+git clone https://github.com/xlavm/Hadoop.git
 
-cd Hadoop/Install hadoop from docker
+cd Hadoop/install_hadoop_from_docker
 ``` 
 
 Execute the command: `./start-cluster.sh`
